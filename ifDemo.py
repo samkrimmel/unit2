@@ -8,4 +8,6 @@ if num > 0:
     print(num, 'Is PoSiTivE')
 elif num < 0:
     print(num, 'iS NeGaTivE')
+else:
+    print(num, 'IS ZERO')
 
