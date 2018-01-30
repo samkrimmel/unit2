@@ -11,15 +11,15 @@ choice = int(input('Choose your conversion:'))
 
 if choice == 1:
     num = float(input('Enter distance in Kilometers:'))
-    print(num, 'Kilometers is', num/0.621371, 'miles.')
+    print(num, 'Kilometers is', round(num/0.621371,2), 'miles.')
 elif choice == 2:
     num = float(input('Enter weight in Kilograms:'))
-    print(num, 'Kilograms is', num/2.20462, 'pounds.')
+    print(num, 'Kilograms is', round(num/2.20462,2), 'pounds.')
 elif choice == 3:
     num = float(input('Enter a volume in liters:'))
-    print(num, 'liters is', num/0.264172, 'gallons.')
+    print(num, 'liters is', round(num/0.264172,2), 'gallons.')
 elif choice == 4:
     num = float(input('Enter degrees in Celsius:'))
-    print(num, 'degrees Celsius is', (num*1.8)+32, 'degrees Fahrenheit.')
+    print(num, 'degrees Celsius is', round(((num*1.8)+32),2), 'degrees Fahrenheit.')
 else:
     print('Error!')
