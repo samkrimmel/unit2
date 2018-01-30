@@ -8,6 +8,10 @@ if num > 0 and num%7 == 0:
     print(num, 'is positive and divisible by seven!')
 elif num > 0:
     print(num, 'is positive but not divisible by seven. :(')
+elif num < 0 and num%7 == 0:
+    print(num, 'is negative and divisible by seven.')
+elif num < 0:
+    print(num, 'is negative but not divisible by seven.')
 else:
-    print('ERROR. FBI HAS HACKED YOUR COMPUTER.')
+    print('ERROR 404, number not found.')
 
