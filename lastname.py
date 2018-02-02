@@ -4,7 +4,7 @@
 
 name = input('Enter your name: ')
 
-if name >= 'N':
+if name.upper() >= 'N':
     print('Your name is in the second half of the alphabet...')
-elif name <= 'M':
+elif name.upper() <= 'M':
     print('Your name is in the first half of the alphabet, YOU ARE SUPERIOR.')
