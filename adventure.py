@@ -33,5 +33,6 @@ else:
             print("Turns out it's that rabbit from Monty Python, you die.")
         else:
             print("Good choice, it seems to be munching on human flesh.")
+            print("But too bad, it had a friend that teleported behind you. You feel an excruciating pain and see the light.")
             
         
